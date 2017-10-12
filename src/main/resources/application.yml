@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    stream:
+      bindings:
+        testOutput1:
+          destination: TestMessage
+          contentType: application/json
+        testOutput2:
+          destination: Test2Message
+          contentType: application/json

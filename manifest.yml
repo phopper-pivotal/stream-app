@@ -1,0 +1,14 @@
+---
+applications:
+- name: stream-app
+  host: stream-app-sandbox
+  health-check-type: none
+  memory: 2G
+  instances: 1
+  buildpack: 'https://github.com/cloudfoundry/java-buildpack#v4.5'
+  path: target/stream-app.jar
+  services:
+    - config-server
+    - service-registry
+    - circuit-breaker-dashboard
+    - rabbitmq
