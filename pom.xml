@@ -75,7 +75,7 @@
                 <dependency>
 	                <groupId>com.github.phopper-pivotal</groupId>
                  	<artifactId>stream-app</artifactId>
-                 	<version>-SNAPSHOT</version>
+                 	<version>0.0.1-SNAPSHOT</version>
                 </dependency>
 	</dependencies>
 
