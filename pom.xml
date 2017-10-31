@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.example</groupId>
+	<groupId>io.pivotal.hopper</groupId>
 	<artifactId>stream-app</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
@@ -72,11 +72,6 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
-			<groupId>com.github.phopper-pivotal</groupId>
-			<artifactId>stream-app</artifactId>
-			<version>-SNAPSHOT</version>
-		</dependency>
 	</dependencies>
 
 	<dependencyManagement>
@@ -123,12 +118,11 @@
 		</plugins>
 	</build>
 
-	<repositories>
-		<repository>
-			<id>jitpack.io</id>
-			<url>https://jitpack.io</url>
-		</repository>
-	</repositories>
-
-
+    <repositories>
+        <repository>
+            <id>git-phopper-pivotal</id>
+            <name>phopper-pivotal</name>
+            <url>https://github.com/phopper-pivotal/maven-repo</url>
+        </repository>
+    </repositories>
 </project>
