@@ -72,6 +72,11 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+                <dependency>
+	                <groupId>com.github.User</groupId>
+                 	<artifactId>Repo</artifactId>
+                 	<version>-SNAPSHOT</version>
+                </dependency>
 	</dependencies>
 
 	<dependencyManagement>
@@ -104,11 +109,6 @@
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
-                 	<dependency>
-	                     <groupId>com.github.User</groupId>
-                 	    <artifactId>Repo</artifactId>
-                 	    <version>Tag</version>
-                 	</dependency>
 		</dependencies>
 	</dependencyManagement>
 
