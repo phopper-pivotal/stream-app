@@ -73,9 +73,9 @@
 			<scope>test</scope>
 		</dependency>
                 <dependency>
-	                <groupId>com.github.User</groupId>
-                 	<artifactId>Repo</artifactId>
-                 	<version>-SNAPSHOT</version>
+	                <groupId>com.github.phopper-pivotal</groupId>
+                 	<artifactId>stream-app</artifactId>
+                 	<version>0.0.1</version>
                 </dependency>
 	</dependencies>
 
