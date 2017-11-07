@@ -8,7 +8,7 @@ applications:
   buildpack: 'https://github.com/cloudfoundry/java-buildpack#v4.5'
   path: target/stream-app.jar
   services:
-    - config-server
     - service-registry
-    - circuit-breaker-dashboard
     - rabbitmq
+  env:
+    maven.remote-repositories.repo1.url: https://github.com/phopper-pivotal/maven-repo
