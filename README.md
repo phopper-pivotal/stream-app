@@ -1,6 +1,6 @@
 # simple stream application
 ## issues
-### first `No suitable service info creator found for service config-server..."
+### first `No suitable service info creator found for service config-server..."`
 ```
 2017-10-18T15:28:25.94-0500 [APP/TASK/stream-app/0] OUT 2017-10-18 20:28:25.932 INFO 7 --- [      main] pertySourceApplicationContextInitializer : Adding 'cloud' PropertySource to ApplicationContext
 2017-10-18T15:28:26.03-0500 [APP/TASK/stream-app/0] OUT 2017-10-18 20:28:26.030 WARN 7 --- [      main] o.c.r.o.s.cloud.AbstractCloudConnector  : No suitable service info creator found for service circuit-breaker-dashboard Did you forget to add a ServiceInfoCreator?
