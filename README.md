@@ -8,7 +8,8 @@
 2017-10-18T15:28:26.03-0500 [APP/TASK/stream-app/0] OUT 2017-10-18 20:28:26.030 WARN 7 --- [      main] o.c.r.o.s.cloud.AbstractCloudConnector  : No suitable service info creator found for service config-server Did you forget to add a ServiceInfoCreator?
 ```
 
-### second `Unsatisfied dependency expressed through field ‘nonSecurePort’; nested exception is org.springframework.beans.TypeMismatchException: Failed to convert value of type ‘java.lang.String’ to required type ‘int’; nested exception is java.lang.NumberFormatException: For input string: “”`
+### second 
+`Unsatisfied dependency expressed through field ‘nonSecurePort’; nested exception is org.springframework.beans.TypeMismatchException: Failed to convert value of type ‘java.lang.String’ to required type ‘int’; nested exception is java.lang.NumberFormatException: For input string: “”`
 
 ## how to reproduce
 The project has a pre-built dependency on Spring Cloud Service Eureka and RabbitMQ. The `manifest.yml` specifies them as `service-registry` and `rabbitmq`.
